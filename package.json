@@ -1,0 +1,46 @@
+{
+  "name": "banking",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-picker/picker": "2.9.0",
+    "@react-navigation/bottom-tabs": "^6.5.19",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.9.20",
+    "@react-navigation/stack": "^7.2.10",
+    "axios": "^1.8.4",
+    "expo": "^52.0.42",
+    "expo-linking": "~7.0.5",
+    "expo-location": "~18.0.10",
+    "expo-status-bar": "~2.0.1",
+    "ionicons": "^7.4.0",
+    "nativewind": "^4.1.23",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "^0.76.9",
+    "react-native-contacts": "^8.0.4",
+    "react-native-gesture-handler": "~2.20.0",
+    "react-native-reanimated": "3.16.2",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-svg": "15.8.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "~0.19.13",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
